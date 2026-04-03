@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Link } from "react-router-dom";
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URI;
+const API_BASE = "https://lms-imarticus.onrender.com";
 
 function Courses() {
   const [courses, setCourses] = useState([]);

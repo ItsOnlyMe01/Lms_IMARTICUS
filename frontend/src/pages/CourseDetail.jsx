@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import axios from "axios";
 
-const API_BASE = import.meta.env.VITE_API_BASE_URI;
+const API_BASE = "https://lms-imarticus.onrender.com";
 
 export default function CourseDetail() {
   const { id } = useParams();
