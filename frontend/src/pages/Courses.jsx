@@ -8,7 +8,7 @@ function Courses() {
 
   useEffect(() => {
     axios
-      .get(`${API_BASE_URL}/courses`)
+      .get(`${API_BASE}/courses`)
       .then((res) => {
         if (Array.isArray(res.data)) {
           setCourses(res.data);
