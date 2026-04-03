@@ -16,7 +16,6 @@ npm-debug.log*
 
 # Build folders
 build/
-frontend/dist/
 
 # OS files
 .DS_Store
